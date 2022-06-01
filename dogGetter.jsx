@@ -1,6 +1,6 @@
 function App() {
   const {Button} = ReactBootstrap;
-  const {useState, useEffect} = React;
+  const {useState} = React;
   const [url, setUrl] = useState('https://images.dog.ceo/breeds/pointer-german/n02100236_2974.jpg');
 
   function handleClick() {
